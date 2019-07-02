@@ -1,0 +1,17 @@
+{
+  "name": "Angular",
+  "dockerFile": "Dockerfile",
+  "appPort": [
+    "8000:4200"
+  ],
+  "extensions": [
+    "kisstkondoros.vscode-codemetrics",
+    "infinity1207.angular2-switcher",
+    "steoates.autoimport",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "amatiasq.sort-imports",
+    "esbenp.prettier-vscode",
+    "natewallace.angular2-inline"
+  ],
+  "postCreateCommand": "yarn global add @angular/cli"
+}
